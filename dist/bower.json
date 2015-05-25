@@ -1,0 +1,25 @@
+{
+  "name": "Todo List",
+  "version": "0.0.1",
+  "authors": [
+    "Alexa Schreffler <alexa.schreffler@gmail.com>"
+  ],
+  "description": "To-do list to track tasks",
+  "main": "index.html",
+  "keywords": [
+    "jquery",
+    "javascript"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "backbone": "~1.2.0"
+  }
+}
