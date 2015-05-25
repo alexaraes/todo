@@ -23,9 +23,8 @@ function start(e) {
 		return '<ol><li>'+todoList.join('</li><li>')+'</li></ol>';
 	}
 
-	function strikeThru() {
-		$(event.target).css(
-			'text-decoration: line-through');
+	function strikeThru(event) {
+		$(event.target).css('text-decoration','line-through');
 	}
 
 }
